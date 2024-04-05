@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Open sans';
+    src: 
+         url('./fonts/OpenSans-VariableFont.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cormorant Upright';
+    src: 
+         url('./fonts/CormorantUpright-Bold.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+
+.open-sans {
+    font-family: 'Open sans';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cormorant-upright {
+    font-family: 'Cormorant Upright';
 }

@@ -1,0 +1,14 @@
+quiz website
+
+Tools
+1. React - for UI
+2. Framer motion - for animation
+3. Tailwind - for styling
+4. Supabase - for authentication
+
+API: https://the-trivia-api.com/api/questions/
+
+--- buttons, logo, menu icon, wave ( same color ) => #000C66
+
+--- headers => #0000FF
+
